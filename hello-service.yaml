@@ -29,7 +29,6 @@ spec:
       spec:
          containers:
             - name: helloworld-kubernetes
-            # replace <image-tag> with your actual image
-              image: localhost:5000/hello
+              image: brunocrt/hellogo
               ports:
                 - containerPort: 8080
